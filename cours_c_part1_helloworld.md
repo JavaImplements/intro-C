@@ -189,7 +189,7 @@ fichier de définition des traductions
 #endif
 
 // Version internationale
-#ifndef LANG_EN
+#ifdef LANG_EN
 #define MSG_HELLO "Hello world!\n"
 #endif
 ```
